@@ -1,7 +1,7 @@
 # Faircorp (Front End)
 
 Based on the [Quentin Richaud's](https://gitlab.com/emse1/cours-dev-web-5-vuejs/-/blob/master/presentation/slides.md#assignment) assigenement.  
-A vueJS application that makes use of the faircorp [API](https://app-41a50e3d-146d-4bfc-80ae-84cb8df274e1.cleverapps.io/) deployed on clever Cloud and created made in the course of [Guillaume Ehret](https://dev-mind.fr/).  
+A vueJS application that makes use of the faircorp [API](https://app-41a50e3d-146d-4bfc-80ae-84cb8df274e1.cleverapps.io/) deployed on clever Cloud and made in the course of [Guillaume Ehret](https://dev-mind.fr/).  
 
 ## Project setup
 ```
