@@ -1,1 +1,1 @@
-export const API_HOST = 'https://faircorp-no-security-ainhajar-ibrahim.cleverapps.io/';
+export const API_HOST = 'http://localhost:8080';

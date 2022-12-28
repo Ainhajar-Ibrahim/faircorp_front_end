@@ -1,0 +1,22 @@
+version: '3'
+services:
+
+  backend:
+    build: 
+      context: D:\faircorp
+      dockerfile: Dockerfile
+    container_name: backend
+    ports:
+      - 8080:8080
+
+  frontend:
+    build: 
+      context: D:\Faircorp_FrontEnd
+      dockerfile: Dockerfile
+    container_name: frontend
+    ports:
+      - 8081:8080
+    links:
+      - backend
+#docker-compose up -d --force-recreate
+#docker-compose down --rmi all
