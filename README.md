@@ -22,6 +22,32 @@ npm run build
 ```
 npm run lint
 ```
+## Docker 
+
+To create a container and run it, run the following command in the root file of the project (you need to have docker installed and running): 
+```
+docker run -it -p 8081:8080 --rm --name fontend faircorp/frontend
+```
+
+## Docker-Compose 
+First of all modify the docker-compose.yml file by giving the paths on your computer of the backend and the front end 
+```
+backend:
+    build: 
+      context: backend\path
+      
+frontend:
+    build: 
+      context: frontend\path
+```
+To create the two containers and run them, run the following command in the root file of the project (you need to have docker installed and running): 
+```
+docker-compose up -d --force-recreate
+``` 
+To stop the containers and delete them run the following command: 
+```
+docker-compose down --rmi all
+```
 
 ## Warning
 
